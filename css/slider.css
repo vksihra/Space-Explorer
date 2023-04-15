@@ -1,0 +1,138 @@
+*{
+margin: 0;
+padding: 0;
+}
+/* Set a default font size and line height */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Use media queries to adjust styles for different screen sizes */
+@media only screen and (max-width: 768px) {
+  /* Adjust font size for smaller screens */
+  html {
+    font-size: 14px;
+  }
+
+  /* Center the home button and reduce its size */
+  .home-btn {
+    font-size: 16px;
+    padding: 10px 30px;
+    top: 5px;
+    left: 5px;
+  }
+
+  /* Reduce the margin around the swiper and its slides */
+  .swiper {
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .swiper-wrapper {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  /* Adjust the font size and padding of the slide links */
+  .swiper-slide a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+/* Use relative units to make the layout responsive */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-btn {
+  color: white;
+  padding: 16px 48px;
+  display: block;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 24px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+}
+
+.swiper {
+  width: 80%;
+  height: 60vh;
+  margin-top: 100px;
+  margin: auto;
+  z-index: 0;
+}
+
+.swiper-wrapper {
+  width: 20%;
+  margin-left: 26%;
+  z-index: 0;
+}
+
+.swiper-slide img {
+  margin-left: 8%;
+  object-fit: contain;
+  max-height: 80%;
+  max-width: 80%;
+  z-index: 0;
+}
+
+.swiper-slide a {
+  display: block;
+  margin: 0 auto;
+  margin-left: 18%;
+  font-size: 20px;
+  padding: 18px 36px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  color: white;
+  position: absolute;
+  z-index: 0;
+}
+
+.footer-content {
+	background-color: inherit;
+	color: white;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	top: 90%; /* Updated value */
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.socials li {
+	margin-right: 20px;
+}
+
+.socials li:last-child {
+	margin-right: 0;
+}
+
+.socials a {
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.fa {
+	width: 
+}

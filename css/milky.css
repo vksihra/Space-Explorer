@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: white;
+  font-family: cursive;, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  align-items: center;
+  margin: 0 30px; /* Add left and right margin of 20px */
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/milky.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.home-btn {
+  color: white;
+  padding: 14px 40px;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  flex-direction: column; /* Change the flex direction to column */
+  margin-top: 20px;
+}
+
+.container .l1 a {
+  display: block; /* Display the anchor tags as blocks */
+  margin: 10px 0; /* Add some margin between the buttons */
+  text-decoration: none;
+  font-size: 18px;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.l1{
+  list-style: none;
+}
+
+
+.footer-content {
+	background-color: inherit;
+	color: white;
+	padding: 10px;
+	/* position: fixed; */
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.socials li {
+	margin-right: 20px;
+}
+
+.socials li:last-child {
+	margin-right: 0;
+}
+
+.socials a {
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.fa {
+	width: 
+}

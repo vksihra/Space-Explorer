@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-btn {
+  color: white;
+  padding: 14px 40px;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../pimages/back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+
+main p {
+  font-family: cursive;
+  font-size: 20px;
+  line-height: 1.5;
+  float: left;
+  width: 50%;
+  padding: 10px 2em;
+  color: white;
+  z-index: 0;
+}
+
+header {
+  margin-top: 3em;
+  text-align: center;
+  color: white;
+}
+
+#container3D {
+  margin-top: 4%;
+  float: right;
+  width: 40%;
+  z-index: 1;
+  position: fixed;
+  right: 0;
+  top: 60px; /* adjust the top value to avoid overlapping with the home button */
+}
+
+.next {
+  color: white;
+  padding: 14px 40px;
+  margin-top: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fff;
+  position: fixed;
+  top: 40px; /* adjust the top value to avoid overlapping with the home button */
+  right: 10px;
+  z-index: 1;
+}
+
+.prev {
+  color: white;
+  padding: 14px 40px;
+  margin-top: 10px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fff;
+  position: fixed;
+  top: 40px; /* adjust the top value to avoid overlapping with the home button */
+  left: 60%;
+  z-index: 1;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+
+  main p {
+    width: 100%;
+    padding: 10px;
+    float: none;
+    text-align: justify;
+  }
+
+  #container3D {
+    width: 100%;
+    margin-top: 1em;
+    position: static;
+  }
+
+  .next,
+  .prev {
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.footer-content {
+	background-color: inherit;
+	color: white;
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	top: 185%; /* Updated value */
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.socials li {
+	margin-right: 20px;
+}
+
+.socials li:last-child {
+	margin-right: 0;
+}
+
+.socials a {
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.fa {
+	width: 
+}
+

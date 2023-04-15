@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Planets</title>
+	<link rel="stylesheet" type="text/css" href="css/slider.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<a href="index.html" class="home-btn">Home</a>
+<div class="container">
+	<div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/mercury.jpg"><a href="planets/mercury.html">Mercury</a></div>
+    <div class="swiper-slide"><img src="images/venus.jpg"><a href="planets/venus.html">Venus</a></div>
+    <div class="swiper-slide"><img src="images/earth.jpg"><a href="planets/earth.html">Earth</a></div>
+    <div class="swiper-slide"><img src="images/mars.jpg"><a href="planets/mars.html">Mars</a></div>
+    <div class="swiper-slide"><img src="images/jupiter.jpg"><a href="planets/jupiter.html">Jupiter</a></div>
+    <div class="swiper-slide"><img src="images/saturn.jpg"><a href="planets/saturn.html">Saturn</a></div>
+    <div class="swiper-slide"><img src="images/uranus.jpg"><a href="planets/uranus.html">Uranus</a></div>
+    <div class="swiper-slide"><img src="images/neptune.jpg"><a href="planets/neptune.html">Neptune</a></div>
+    <div class="swiper-slide"><img src="images/moon.jpg"><a href="planets/moon.html">Earth's Moons</a></div>
+  </div>
+
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+
+});
+</script>
+<div class="footer-content">
+  <ul class="socials">
+    <li><a href="https://www.linkedin.com/in/vksihra/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="https://github.com/vksihra" target="_blank"><i class="fa fa-github"></i></a></li>
+  </ul>
+</div>
+</body>
+</html>

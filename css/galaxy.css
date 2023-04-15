@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-btn {
+  color: white;
+  padding: 14px 40px;
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/Galaxy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  color: white;
+  font-family: cursive;, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  letter-spacing: 0.5px;
+  align-items: center;
+  margin: 0 20px; /* Add left and right margin of 20px */
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .l1 a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  font-size: 20px;
+  border: 2px solid #fff;
+  padding: 14px 40px;
+  border-radius: 50px;
+  color: white;
+}
+
+.l1 {
+  list-style: none;
+}
+
+
+.footer-content {
+	background-color: inherit;
+	color: white;
+	padding: 10px;
+	/* position: fixed; */
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.socials li {
+	margin-right: 20px;
+}
+
+.socials li:last-child {
+	margin-right: 0;
+}
+
+.socials a {
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.fa {
+	width: 
+}
+
