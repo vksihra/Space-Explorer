@@ -1,2 +1,2 @@
 # Space-Explorer
-A completely HTML and CSS based frontend project with complete description of entire universe.
+A completely HTML and CSS based frontend project. It provides information on various celestial objects,including galaxies,planets and more.
